@@ -12,16 +12,13 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .img1 {
     background-image: url("https://cdn.discordapp.com/attachments/497568862099865637/834245041093607464/IMG-20201005-WA0031.jpg");
-    min-height: 100%;
 }
 
 .img2 {
     background-image: url("https://cdn.discordapp.com/attachments/741588013120749639/828686739547750429/image0.png");
-    min-height: 400px;
 }
 
 .caption {
@@ -54,14 +51,12 @@ h3 {
     background-color: whitesmoke;
     text-align: center;
     padding: 50px 80px;
-    text-align: justify;
 }
 
 .box2 {
     background-color: #2d2d2d;
     text-align: center;
     padding: 50px 80px;
-    text-align: justify;
 }
 
 p {
@@ -81,4 +76,8 @@ p {
 
 .break {
     min-height: 300px;
+}
+
+.cover {
+    min-height: 100%;
 }
