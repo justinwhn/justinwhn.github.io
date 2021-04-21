@@ -1,0 +1,84 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: dimgray;
+}
+
+.img1, .img2, .img3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img1 {
+    background-image: url("https://cdn.discordapp.com/attachments/497568862099865637/834245041093607464/IMG-20201005-WA0031.jpg");
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url("https://cdn.discordapp.com/attachments/741588013120749639/828686739547750429/image0.png");
+    min-height: 400px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.caption span.border {
+    background-color: black;
+    color: whitesmoke;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.box {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+.box2 {
+    background-color: #2d2d2d;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+p {
+    color: dimgray;
+    text-align: center;
+}
+
+.box2 p{
+    color: lightgray;
+    text-align: center;
+}
+
+.box2 h3 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.break {
+    min-height: 300px;
+}
