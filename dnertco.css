@@ -1,0 +1,100 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.titleCover {
+    background-image: url("IMG_2021.JPG");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    filter: blur(2px);
+    opacity: 80%;
+}
+
+.titleTextBox {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background: #d9bda0;
+    opacity: 80%;
+    padding: 25px 63px;
+    outline: 2px solid black;
+    outline-offset: -10px;
+    animation: fadein 1s;
+}
+
+.titleText {
+    font-family: 'Lora', serif;
+    text-align: center;
+    opacity: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    letter-spacing: 8px;
+}
+
+h4 {
+    font-size: 23px;
+}
+
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 80%}
+}
+
+.buttons {
+    position: absolute;
+    z-index: 10;
+    top: 77.5%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button {
+    border: none;
+    color: black;
+    padding: 26px 82px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+.buttonG {
+    background-color: #d9bda0;
+    color: black;
+    outline: 2px solid black;
+    outline-offset: -8px;
+    opacity: 80%;
+}
+
+.buttonG:hover {
+    opacity: 100%;
+    padding: 29px 86px;
+}
+
+.buttonO {
+    background-color: #d9bda0;
+    color: black;
+    outline: 2px solid black;
+    outline-offset: -8px;
+    opacity: 80%;
+}
+
+.buttonO:hover {
+    opacity: 100%;
+    padding: 29px 86px;
+}
